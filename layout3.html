@@ -5,44 +5,80 @@
     <meta charset="UTF=8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Practice Layout 3</title>
+    <title>Layout 3</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
 
-       <link rel="stylesheet" href="css/link3a.css">
-   <!--    <link rel="stylesheet" href="css/link3b.css"> -->
-       <link rel="stylesheet" href="css/link3c.css"> 
+    <link rel="stylesheet" href="css/layout3.css">
 </head>
 
 <body>
-<header>
-    <section id="logo">
-        <a href="layout3.html"><img src="images/pawprint.png" alt="pawprint logo"></a>
-    </section>
-    <h1>Dog Club</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">home page</a></li>
-            <li><a href="index.html">about club</a></li>
-            <li><a href="index.html">services</a></li>
-            <li><a href="index.html">gallery</a></li>
-            <li><a href="index.html">puppies</a></li>
-            <li><a href="index.html">contact us</a></li>
-            
-        </ul>
-    </nav>
-</header>
+    <header>
+        <section class="container-fluid text-center">
+            <a  href="layout3.html">
+                <img src="images/pawprint.png" alt="pawprint logo">
+            </a>
+        
+        <h1>Dog Club</h1>
+        </section>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-<main>
-    <section id="pictures">
-        <img src="images/dog1.jpg" alt="dog 1 pic">
-        <img src="images/dog2.jpg" alt="dog 2 pic">
-        <img src="images/dog3.jpg" alt="dog 3 pic">
-    </section>
-    <h1>A dog will love you forever</h1>
-    <div id="line"></div>
-</main>
-<footer>&copy;Dogs are people too. Woof.</footer>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  justify-content-between">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">home page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">about club</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">puppies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">contact us</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container-fluid">
+            <div class="row">
+                <div class="img-settings col-md-4">
+                    <img class="img-fluid" src="images/dog1.jpg" alt="dog 1 pic">
+                </div>
+                <div class="img-settings col-md-4">
+                    <img class="img-fluid" src="images/dog2.jpg" alt="dog 2 pic">
+                </div>
+                <div class="img-settings col-md-4">
+                    <img class="img-fluid" src="images/dog3.jpg" alt="dog 3 pic">
+                </div>
+            </div>
+        </section>
+        <h1>A dog will love you forever</h1>
+        <div id="line"></div>
+    </main>
+    <footer>&copy;Dogs are people too. Woof.</footer>
 
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
 
 
 
